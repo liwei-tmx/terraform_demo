@@ -25,7 +25,7 @@ locals {
   # EKS计算节点使用的实例类型
   launch_template_instance_type = "t3.small"
   # 服务器登录密钥，需要提前在EC2的密钥管理中配置好
-  launch_template_key_name = "us-west-2.pem"
+  launch_template_key_name = "us-west-2"
   # EKS集群使用的VPC网段
   vpc_cidr_block = "10.2.0.0/16"
   # EKS集群使用的子网网段
