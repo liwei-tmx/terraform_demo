@@ -1,6 +1,7 @@
 # author demo
 # 使用当前脚本所在服务器角色权限
 provider "aws" {
+  profile = "tf-user"
   region = "us-west-2"
 }
 # 获取当前可用区
